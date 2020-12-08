@@ -1,0 +1,19 @@
+{
+  "TITLE": "Title",
+  "PAGES": {
+      "HOME": {
+          "TITLE": "App works !",
+          "CHANGE_THEME": "Change theme",
+          "CHANGE_LANG": "Change language",
+          "GO_TO_DETAIL": "Go to Detail"
+      },
+      "DETAIL": {
+        "TITLE": "Detail page !",
+        "BACK_TO_HOME": "Back to Home"
+    }
+  },
+  "NAV": {
+    "DETAILS": "Details",
+    "HOME": "Home"
+  }
+}

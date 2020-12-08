@@ -1,0 +1,12 @@
+<div class="container">
+  <h1 class="title">
+    {{ 'PAGES.HOME.TITLE' | translate }}
+  </h1>
+
+  <button (click)="settings.theme === 'dark' ? settings.theme = 'light' : settings.theme = 'dark'" mat-button>{{'PAGES.HOME.CHANGE_THEME' | translate}}</button>
+  <button color="primary" (click)="settings.language === 'de' ? settings.language = 'en' : settings.language = 'de'" mat-raised-button>{{'PAGES.HOME.CHANGE_LANG' | translate}}</button>
+  <br>
+  <br>
+
+  <a routerLink="/details">{{ 'PAGES.HOME.GO_TO_DETAIL' | translate }}</a>
+</div>
